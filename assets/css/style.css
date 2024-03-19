@@ -18,6 +18,12 @@
     color: white;
     font-size: 20px;
 }
+.encabezado h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
 .menu{
     padding: 20px;
     display: flex;
@@ -43,4 +49,35 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
+}
+.columna{
+    display: flex;
+
+}
+.content-col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+}
+.content-col h2{
+    font-size: 40px;
+}
+.content-col p{
+    color: grey;
+}
+.content-col p:last-child{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.img-bg1{
+    background-image: url(../img/images/image-transform.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 500px;
 }
