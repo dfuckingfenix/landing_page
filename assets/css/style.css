@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.encabezado{
+    background-image: url(../img/images/image-header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+.logo{
+    font-family: "Madimi One", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.menu-opt a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-opt{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.menu-opt a:last-child{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
