@@ -68,16 +68,48 @@
 .content-col p{
     color: grey;
 }
-.content-col p:last-child{
+.learn{
     color: black;
     font-size: 20px;
     text-decoration: underline;
-    text-decoration-color: yellow;
     text-decoration-thickness: 5px;
 }
-.img-bg1{
-    background-image: url(../img/images/image-transform.jpg);
-    background-size: cover;
+.learn.learn-1{
+    text-decoration-color: yellow;
+}
+.learn.learn-2{
+    text-decoration-color: rgb(233, 84, 39);
+}
+.img-bg{
+    
     width: 50%;
     height: 500px;
+}
+.img-bg.img-1{
+    background-image: url(../img/images/image-transform.jpg);
+    background-size: cover;
+}
+.img-bg.img-2{
+    background-image: url(../img/images/image-stand-out.jpg);
+    background-size: cover;
+}
+.img-bg.img-3{
+    background-image: url(../img/images/image-graphic-design.jpg);
+    background-size: cover;
+    color: rgb(4, 51, 4);
+}
+.img-bg.img-4{
+    background-image: url(../img/images/image-photography.jpg);
+    background-size: cover;
+    color: rgb(22, 22, 81);
+}
+.img-cont{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 20px;
+    
 }
